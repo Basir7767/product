@@ -1,0 +1,42 @@
+h1{
+    margin-left: 90px;
+}
+/* Google font */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+      border:3px solid lightpink;
+    width: 440px;
+    height: 414px;
+  }
+  
+  .text {
+    width:582px;
+    height:265px;
+    margin: 40px;
+    border: 3px solid lightpink;
+    border-radius: 5px;
+    padding:10px;
+    text-align: justify;
+    }
+    .button{
+            background-color: #E02C6D;
+            border: none;
+            color: white;
+            border-radius: 13px;
+            padding: 10px 24px;
+            font-size: 16px;
+            cursor: pointer;    
+    }
