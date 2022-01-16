@@ -107,22 +107,5 @@ padding-left: 10px;
   color: white;
   text-align: center;
 }
- @media (max-width:689px) {
-            .main body{
-                background-color:cyan;
-            }
-
-            .main{
-                flex-direction: column;
-            }
-          
-        }
-         @media (min-width:993px) {
-            .main body {
-                background-color: palegoldenrod;
-            }  
-            .main{
-              flex-direction: column;
-          }
-        }
+ 
            
