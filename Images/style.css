@@ -1,11 +1,9 @@
-h1{
-    margin-left: 90px;
-}
 /* Google font */
 body{
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
 }
+
 .container {
     display: flex;
     align-items: flex-start;
@@ -17,7 +15,8 @@ body{
   }
   
   .image {
-      border:3px solid lightpink;
+    border:3px solid lightpink;
+    border-radius: 2%;
     width: 440px;
     height: 414px;
   }
@@ -40,3 +39,57 @@ body{
             font-size: 16px;
             cursor: pointer;    
     }
+    /* top players style */
+.top-products{
+  margin-bottom: 30px;
+}
+.section-title{
+  position: relative;
+  width: 262px;
+  height: 70px;
+  left: calc(50% - 262px/2);
+  top: calc(50% - 70px/2 - 693px);
+}
+.container-products{
+position: absolute;
+width: 1047px;
+height: 1662px;
+left: 197px;
+top: 925px;
+
+}
+.products{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  /* grid-template-columns:1fr 1fr 1fr; */
+  grid-row-gap: 30px;
+}
+.product{
+  position: static;
+width: 329px;
+height: 550px;
+left: calc(50% - 329px/2 - 358.5px);
+top: calc(50% - 476px/2 - 390px);
+
+background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+.product img{
+  width: 300px;
+  height: 256px;
+}
+.product-name{
+  margin-left: 16px;
+  font-size: 18px;
+}
+.icon {
+  color: goldenrod;
+  }
+  .bottom-text{
+    color: rgb(42, 122, 226);
+  }
+.bottom-button{
+  color: #E02C6D;
+  border: none;
+  border-radius: 13px;
